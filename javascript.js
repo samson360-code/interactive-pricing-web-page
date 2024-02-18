@@ -15,8 +15,8 @@ const changer=() => {
     }
     else {
         views.innerHTML = rangestr + "k";
-        let width = (rangeInput * 431) / 1000;
-        styleSheet.cssRules[2].style.width = `calc(${width}px - 20px)`;
+        let width = (rangeInput * 92) / 1000;
+        styleSheet.cssRules[2].style.width = `calc(${width}%)`;
         priceCalculator(rangeInput);
     }
 }
